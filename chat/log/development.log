@@ -924,3 +924,682 @@ FOREIGN KEY (`chat_application_chat_id`)
   [1m[35m (3.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
   [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
 [dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (3.0ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (18.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (7.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (3.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (3.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (29.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.9ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.7ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (6.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.8ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (2.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.8ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.5ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a] Performing CreateMessageJob (Job ID: 1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a) from Sidekiq(default) enqueued at 2024-07-06T20:00:51.225726637Z with arguments: 1
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) enqueued at 2024-07-06T20:00:20.929420804Z with arguments: 1
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   [1m[36mChatApplicationMessage Load (2.0ms)[0m  [1m[34mSELECT `chat_application_messages`.* FROM `chat_application_messages` WHERE `chat_application_messages`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   ↳ app/jobs/create_message_job.rb:5:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplicationChat Load (3.1ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:5:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Error performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) in 147.76ms: NoMethodError (undefined method `application' for an instance of ChatApplicationChat):
+/usr/local/bundle/ruby/3.3.0/gems/activemodel-7.1.3.4/lib/active_model/attribute_methods.rb:489:in `method_missing'
+/rails/app/jobs/create_chat_job.rb:6:in `perform'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:69:in `block in _perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/i18n-1.14.5/lib/i18n.rb:351:in `with_locale'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:68:in `_perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:52:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:206:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:206:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:39:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:26:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:18:in `block in perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:135:in `block in tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:39:in `tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:135:in `tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/broadcast_logger.rb:240:in `method_missing'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:25:in `tag_logger'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:18:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:30:in `block in execute'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/railtie.rb:67:in `block (4 levels) in <class:Railtie>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:77:in `block in wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:74:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/railtie.rb:66:in `block (3 levels) in <class:Railtie>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:28:in `execute'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/queue_adapters/sidekiq_adapter.rb:70:in `perform'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:220:in `execute_job'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job/interrupt_handler.rb:7:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/metrics/tracking.rb:126:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_retry.rb:118:in `local'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/rails.rb:16:in `block in call'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:77:in `block in wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:74:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/rails.rb:15:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:281:in `stats'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_logger.rb:25:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_retry.rb:85:in `global'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_logger.rb:52:in `prepare'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:131:in `dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:182:in `block in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:181:in `process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:86:in `process_one'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:76:in `run'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/component.rb:10:in `watchdog'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/component.rb:19:in `block in safe_thread'
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   [1m[36mChatApplicationChat Load (0.5ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   ↳ app/jobs/create_message_job.rb:6:in `perform'
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   ↳ app/jobs/create_message_job.rb:9:in `block in perform'
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   [1m[36mChatApplicationChat Load (0.5ms)[0m  [1m[37mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`id` = 1 LIMIT 1 FOR UPDATE[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   ↳ app/jobs/create_message_job.rb:9:in `block in perform'
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   [1m[36mChatApplicationChat Update All (3.8ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   ↳ app/jobs/create_message_job.rb:10:in `block in perform'
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   [1m[36mTRANSACTION (3.3ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a]   ↳ app/jobs/create_message_job.rb:8:in `perform'
+[ActiveJob] [CreateMessageJob] [1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a] Performed CreateMessageJob (Job ID: 1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a) from Sidekiq(default) in 204.47ms
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) enqueued at 2024-07-06T20:00:20.929420804Z with arguments: 1
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplicationChat Load (16.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:5:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Error performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) in 74.14ms: NoMethodError (undefined method `application' for an instance of ChatApplicationChat):
+/usr/local/bundle/ruby/3.3.0/gems/activemodel-7.1.3.4/lib/active_model/attribute_methods.rb:489:in `method_missing'
+/rails/app/jobs/create_chat_job.rb:6:in `perform'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:69:in `block in _perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/i18n-1.14.5/lib/i18n.rb:351:in `with_locale'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:68:in `_perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:52:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:206:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:206:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:39:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:26:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:18:in `block in perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:135:in `block in tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:39:in `tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:135:in `tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/broadcast_logger.rb:240:in `method_missing'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:25:in `tag_logger'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:18:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:30:in `block in execute'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/railtie.rb:67:in `block (4 levels) in <class:Railtie>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:77:in `block in wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:74:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/railtie.rb:66:in `block (3 levels) in <class:Railtie>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:28:in `execute'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/queue_adapters/sidekiq_adapter.rb:70:in `perform'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:220:in `execute_job'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job/interrupt_handler.rb:7:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/metrics/tracking.rb:126:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_retry.rb:118:in `local'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/rails.rb:16:in `block in call'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:77:in `block in wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:74:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/rails.rb:15:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:281:in `stats'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_logger.rb:25:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_retry.rb:85:in `global'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_logger.rb:52:in `prepare'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:131:in `dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:182:in `block in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:181:in `process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:86:in `process_one'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:76:in `run'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/component.rb:10:in `watchdog'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/component.rb:19:in `block in safe_thread'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) enqueued at 2024-07-06T20:00:20.929420804Z with arguments: 1
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplicationChat Load (14.3ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:5:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Error performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) in 55.64ms: NoMethodError (undefined method `application' for an instance of ChatApplicationChat):
+/usr/local/bundle/ruby/3.3.0/gems/activemodel-7.1.3.4/lib/active_model/attribute_methods.rb:489:in `method_missing'
+/rails/app/jobs/create_chat_job.rb:6:in `perform'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:69:in `block in _perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/i18n-1.14.5/lib/i18n.rb:351:in `with_locale'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/translation.rb:9:in `block (2 levels) in <module:Translation>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/core_ext/time/zones.rb:65:in `use_zone'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/timezones.rb:9:in `block (2 levels) in <module:Timezones>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:68:in `_perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:32:in `_perform_job'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:52:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:26:in `block in perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railties/job_runtime.rb:13:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:40:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:206:in `block in instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications/instrumenter.rb:58:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/notifications.rb:206:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:39:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activerecord-7.1.3.4/lib/active_record/railties/job_runtime.rb:11:in `instrument'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/instrumentation.rb:26:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:18:in `block in perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:135:in `block in tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:39:in `tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/tagged_logging.rb:135:in `tagged'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/broadcast_logger.rb:240:in `method_missing'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:25:in `tag_logger'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/logging.rb:18:in `perform_now'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:30:in `block in execute'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:121:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/railtie.rb:67:in `block (4 levels) in <class:Railtie>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:77:in `block in wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:88:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:74:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/railtie.rb:66:in `block (3 levels) in <class:Railtie>'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `instance_exec'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:130:in `block in run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/callbacks.rb:141:in `run_callbacks'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/execution.rb:28:in `execute'
+/usr/local/bundle/ruby/3.3.0/gems/activejob-7.1.3.4/lib/active_job/queue_adapters/sidekiq_adapter.rb:70:in `perform'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:220:in `execute_job'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:185:in `block (4 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:180:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job/interrupt_handler.rb:7:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:183:in `block in traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/metrics/tracking.rb:26:in `track'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/metrics/tracking.rb:126:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:182:in `traverse'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/middleware/chain.rb:173:in `invoke'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:184:in `block (3 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:145:in `block (6 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_retry.rb:118:in `local'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:144:in `block (5 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/rails.rb:16:in `block in call'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:77:in `block in wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/execution_wrapper.rb:92:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/activesupport-7.1.3.4/lib/active_support/reloader.rb:74:in `wrap'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/rails.rb:15:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:139:in `block (4 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:281:in `stats'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:134:in `block (3 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_logger.rb:25:in `call'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:133:in `block (2 levels) in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_retry.rb:85:in `global'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:132:in `block in dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/job_logger.rb:52:in `prepare'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:131:in `dispatch'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:183:in `block (2 levels) in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:182:in `handle_interrupt'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:182:in `block in process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:181:in `handle_interrupt'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:181:in `process'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:86:in `process_one'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/processor.rb:76:in `run'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/component.rb:10:in `watchdog'
+/usr/local/bundle/ruby/3.3.0/gems/sidekiq-7.3.0/lib/sidekiq/component.rb:19:in `block in safe_thread'
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[35m (3.5ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (51.4ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Performing CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) enqueued at 2024-07-06T20:00:20.929420804Z with arguments: 1
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplicationChat Load (2.6ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:5:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplication Load (1.2ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`id` = 1 LIMIT 1[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:6:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:9:in `block in perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplication Load (0.6ms)[0m  [1m[37mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`id` = 1 LIMIT 1 FOR UPDATE[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:9:in `block in perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mChatApplication Update All (2.8ms)[0m  [1m[33mUPDATE `chat_applications` SET `chat_applications`.`chat_application_chats_count` = COALESCE(`chat_applications`.`chat_application_chats_count`, 0) + 1 WHERE `chat_applications`.`id` = 1[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:10:in `block in perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   [1m[36mTRANSACTION (3.2ms)[0m  [1m[35mCOMMIT[0m
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7]   ↳ app/jobs/create_chat_job.rb:8:in `perform'
+[ActiveJob] [CreateChatJob] [0adaaef1-5709-4dde-9d9c-d4100be6f0f7] Performed CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) from Sidekiq(default) in 231.33ms
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (5.8ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (10.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.5ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'a858821b66434bb14b2701cbc44f10d6' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'a858821b66434bb14b2701cbc44f10d6' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (3.0ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app2', 'a858821b66434bb14b2701cbc44f10d6', NULL, '2024-07-06 21:13:23.906785', '2024-07-06 21:13:23.906785')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (3.3ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'f9163264b270c3276a10bf00252c3514' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'f9163264b270c3276a10bf00252c3514' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (2.6ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app2', 'f9163264b270c3276a10bf00252c3514', NULL, '2024-07-06 21:15:44.773701', '2024-07-06 21:15:44.773701')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (6.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'

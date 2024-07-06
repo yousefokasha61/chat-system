@@ -3,7 +3,7 @@ class CreateChatJob < ApplicationJob
 
   def perform(chat_id)
     chat = ChatApplicationChat.find(chat_id)
-    application = chat.application
+    application = chat.chat_application
 
     ChatApplication.transaction do
       application.lock!
