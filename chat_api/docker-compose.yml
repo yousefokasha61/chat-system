@@ -1,0 +1,21 @@
+version: '3.3'
+services:
+
+  api:
+    # Configuration for building the docker image for the service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080" # Forward the exposed port 8080 on the container to port 8080 on the host machine
+    restart: unless-stopped
+    environment:
+      RAILS_GRPC_HOST: app
+      RAILS_GRPC_PORT: 50051
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    external: true
+

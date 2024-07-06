@@ -1,0 +1,926 @@
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (13.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE DATABASE `chat_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (37.2ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (5.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Create (4.2ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2024-07-05 15:41:08.411542', '2024-07-05 15:41:08.411544')[0m
+Migrating to CreateChatApplications (20240705144812)
+  [1m[35m (16.2ms)[0m  [1m[35mCREATE TABLE `chat_applications` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `token` varchar(255), `chats_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (20.4ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_chat_applications_on_token` ON `chat_applications` (`token`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705144812')[0m
+Migrating to CreateChatApplicationChats (20240705153022)
+  [1m[35m (16.2ms)[0m  [1m[35mCREATE TABLE `chat_application_chats` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_id` bigint NOT NULL, `number` int, `messages_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_chats_on_chat_application_id` (`chat_application_id`), CONSTRAINT `fk_rails_948dc6f1a2`
+FOREIGN KEY (`chat_application_id`)
+  REFERENCES `chat_applications` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153022')[0m
+Migrating to CreateChatApplicationMessages (20240705153227)
+  [1m[35m (16.3ms)[0m  [1m[35mCREATE TABLE `chat_application_messages` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_chat_id` bigint NOT NULL, `number` int, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_messages_on_chat_application_chat_id` (`chat_application_chat_id`), CONSTRAINT `fk_rails_0b92d53e0c`
+FOREIGN KEY (`chat_application_chat_id`)
+  REFERENCES `chat_application_chats` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153227')[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.6ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (6.2ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:11:in `create_application'
+  [1m[36mChatApplication Create (12.9ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'dd8b41efb9e39262d61e7634b65ae8df', NULL, '2024-07-05 17:57:50.369253', '2024-07-05 17:57:50.369253')[0m
+  ↳ app/services/ChatSystemServer.rb:11:in `create_application'
+  [1m[36mTRANSACTION (15.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:11:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (4.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (3.0ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '62dfff7b02960f43ff43f09339e79b61' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (3.3ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '62dfff7b02960f43ff43f09339e79b61' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (6.3ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chats_count`, `created_at`, `updated_at`) VALUES ('app1', '62dfff7b02960f43ff43f09339e79b61', NULL, '2024-07-05 18:45:00.358469', '2024-07-05 18:45:00.358469')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (7.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Load (2.4ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '62dfff7b02960f43ff43f09339e79b61' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:14:in `update_application'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/services/ChatSystemServer.rb:15:in `update_application'
+  [1m[36mChatApplication Update (1.3ms)[0m  [1m[33mUPDATE `chat_applications` SET `chat_applications`.`name` = 'app1-updated', `chat_applications`.`updated_at` = '2024-07-05 18:45:23.890868' WHERE `chat_applications`.`id` = 2[0m
+  ↳ app/services/ChatSystemServer.rb:15:in `update_application'
+  [1m[36mTRANSACTION (3.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:15:in `update_application'
+  [1m[36mChatApplication Load (2.0ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '62dfff7b02960f43ff43f09339e79b61' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:20:in `get_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (5.4ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:20:in `get_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+Started GET "/" for 127.0.0.1 at 2024-07-05 23:36:37 +0300
+  [1m[36mActiveRecord::SchemaMigration Load (7.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/halanmac/.asdf/installs/ruby/3.3.3/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/halanmac/.asdf/installs/ruby/3.3.3/lib/ruby/gems/3.3.0/gems/railties-7.1.3.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.1ms | Allocations: 362)
+Completed 200 OK in 44ms (Views: 21.1ms | ActiveRecord: 0.0ms | Allocations: 6501)
+
+
+  [1m[36mChatApplication Load (2.3ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:20:in `get_application'
+  [1m[36mChatApplication Load (3.1ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (5.2ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplicationChat Create (2.0ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:36:55.169588', '2024-07-05 20:36:55.169588')[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (2.5ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (3.0ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (3.4ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (5.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (2.0ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (2.0ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplicationChat Create (7.8ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:41:41.211551', '2024-07-05 20:41:41.211551')[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (6.9ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplication Load (5.4ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (1.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (2.3ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplicationChat Create (2.0ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:44:52.846293', '2024-07-05 20:44:52.846293')[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (4.1ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (1.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (2.9ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (2.4ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplicationChat Create (3.5ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:47:33.731022', '2024-07-05 20:47:33.731022')[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mTRANSACTION (6.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (7.8ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (2.7ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (4.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplicationChat Create (3.0ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:47:50.447147', '2024-07-05 20:47:50.447147')[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mTRANSACTION (2.8ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (2.2ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (2.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (7.9ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplicationChat Create (5.7ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:48:38.656578', '2024-07-05 20:48:38.656578')[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (2.3ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:32:in `get_chats'
+  [1m[36mChatApplicationChat Load (2.6ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:33:in `map'
+  [1m[36mChatApplication Load (2.3ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'dd8b41efb9e39262d61e7634b65ae8df' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (14.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (2.1ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (1.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplicationChat Create (2.5ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-05 20:55:44.108474', '2024-07-05 20:55:44.108474')[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (3.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateChatApplicationMessages (20240705153227)
+  [1m[35m (32.2ms)[0m  [1m[35mDROP TABLE `chat_application_messages`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (2.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240705153227'[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateChatApplicationChats (20240705153022)
+  [1m[35m (15.4ms)[0m  [1m[35mDROP TABLE `chat_application_chats`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (2.6ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240705153022'[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mActiveRecord::SchemaMigration Load (1.1ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Migrating to CreateChatApplications (20240705144812)
+  [1m[35m (13.7ms)[0m  [1m[35mDROP INDEX `index_chat_applications_on_token` ON `chat_applications`[0m
+  [1m[35m (9.0ms)[0m  [1m[35mDROP TABLE `chat_applications`[0m
+  [1m[36mActiveRecord::SchemaMigration Destroy (3.2ms)[0m  [1m[31mDELETE FROM `schema_migrations` WHERE `schema_migrations`.`version` = '20240705144812'[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+Migrating to CreateChatApplications (20240705144812)
+  [1m[35m (16.4ms)[0m  [1m[35mCREATE TABLE `chat_applications` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `token` varchar(255), `chat_application_chats_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (11.4ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_chat_applications_on_token` ON `chat_applications` (`token`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705144812')[0m
+Migrating to CreateChatApplicationChats (20240705153022)
+  [1m[35m (23.2ms)[0m  [1m[35mCREATE TABLE `chat_application_chats` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_id` bigint NOT NULL, `number` int, `chat_application_messages_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_chats_on_chat_application_id` (`chat_application_id`), CONSTRAINT `fk_rails_948dc6f1a2`
+FOREIGN KEY (`chat_application_id`)
+  REFERENCES `chat_applications` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (3.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153022')[0m
+Migrating to CreateChatApplicationMessages (20240705153227)
+  [1m[35m (14.1ms)[0m  [1m[35mCREATE TABLE `chat_application_messages` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_chat_id` bigint NOT NULL, `number` int, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_messages_on_chat_application_chat_id` (`chat_application_chat_id`), CONSTRAINT `fk_rails_0b92d53e0c`
+FOREIGN KEY (`chat_application_chat_id`)
+  REFERENCES `chat_application_chats` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153227')[0m
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (4.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.6ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'c3d504c12f82ff6c074e167be49a69cf' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.1ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'c3d504c12f82ff6c074e167be49a69cf' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (2.7ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'c3d504c12f82ff6c074e167be49a69cf', NULL, '2024-07-05 21:00:30.310117', '2024-07-05 21:00:30.310117')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (8.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (3.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (5.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'df8302d7f49bed2370a9d9f990604db9' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (6.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'df8302d7f49bed2370a9d9f990604db9' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (3.5ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'df8302d7f49bed2370a9d9f990604db9', NULL, '2024-07-05 21:02:24.763709', '2024-07-05 21:02:24.763709')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (10.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '6e0ff3d4cb9c17d72292495c91868b10' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '6e0ff3d4cb9c17d72292495c91868b10' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (1.4ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', '6e0ff3d4cb9c17d72292495c91868b10', NULL, '2024-07-05 21:04:21.116510', '2024-07-05 21:04:21.116510')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'fda3f69acfa1edf6c5c0a10c1c1c7bc5' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.4ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'fda3f69acfa1edf6c5c0a10c1c1c7bc5' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (2.1ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'fda3f69acfa1edf6c5c0a10c1c1c7bc5', NULL, '2024-07-05 21:04:51.801447', '2024-07-05 21:04:51.801447')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (3.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (1.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.9ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'faba0e0b12bb7dd5c4cc8f8d8a016ded' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'faba0e0b12bb7dd5c4cc8f8d8a016ded' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (2.5ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'faba0e0b12bb7dd5c4cc8f8d8a016ded', NULL, '2024-07-05 21:06:21.327143', '2024-07-05 21:06:21.327143')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (5.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'e5c3869d2dc33c91a23868c4c3cb623a' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'e5c3869d2dc33c91a23868c4c3cb623a' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (2.2ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'e5c3869d2dc33c91a23868c4c3cb623a', NULL, '2024-07-05 21:08:05.693636', '2024-07-05 21:08:05.693636')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (4.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (2.6ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (5.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'f6b1bfeffcdbd257635400505da5da04' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = 'f6b1bfeffcdbd257635400505da5da04' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mChatApplication Create (3.7ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', 'f6b1bfeffcdbd257635400505da5da04', NULL, '2024-07-05 21:11:17.819524', '2024-07-05 21:11:17.819524')[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mChatApplication Load (1.8ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'f6b1bfeffcdbd257635400505da5da04' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (1.2ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 7[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 7 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplicationChat Create (1.7ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `chat_application_messages_count`, `created_at`, `updated_at`) VALUES (7, 1, NULL, '2024-07-05 21:11:39.887489', '2024-07-05 21:11:39.887489')[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplication Update All (1.7ms)[0m  [1m[33mUPDATE `chat_applications` SET `chat_applications`.`chat_application_chats_count` = COALESCE(`chat_applications`.`chat_application_chats_count`, 0) + 1 WHERE `chat_applications`.`id` = 7[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+[ActiveJob] Enqueued CreateChatJob (Job ID: e9cd0ae2-68f1-4363-9367-0a90c5c04853) to Sidekiq(default) with arguments: 1
+[ActiveJob] ↳ app/services/ChatSystemServer.rb:28:in `create_chat'
+  [1m[36mChatApplication Load (1.7ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'f6b1bfeffcdbd257635400505da5da04' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:33:in `get_chats'
+  [1m[36mChatApplicationChat Load (4.3ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 7[0m
+  ↳ app/services/ChatSystemServer.rb:34:in `map'
+  [1m[36mChatApplication Load (21.2ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = 'f6b1bfeffcdbd257635400505da5da04' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mChatApplicationChat Load (1.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 7 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (3.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (2.6ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (2.1ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 1 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationMessage Create (4.9ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 1, 'elit Lorem dolor consequat sit', '2024-07-05 21:12:33.258656', '2024-07-05 21:12:33.258656')[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationChat Update All (3.5ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mTRANSACTION (7.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (8.7ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE DATABASE `chat_test` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Set [36mMYSQL_USER[0m and [36mMYSQL_PASSWORD[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (67.0ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (10.6ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (8.4ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (26.9ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Create (15.5ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2024-07-06 09:52:52.352485', '2024-07-06 09:52:52.352487')[0m
+Migrating to CreateChatApplications (20240705144812)
+  [1m[35m (15.3ms)[0m  [1m[35mCREATE TABLE `chat_applications` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `token` varchar(255), `chat_application_chats_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (18.0ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_chat_applications_on_token` ON `chat_applications` (`token`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.5ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705144812')[0m
+Migrating to CreateChatApplicationChats (20240705153022)
+  [1m[35m (9.4ms)[0m  [1m[35mCREATE TABLE `chat_application_chats` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_id` bigint NOT NULL, `number` int, `chat_application_messages_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_chats_on_chat_application_id` (`chat_application_id`), CONSTRAINT `fk_rails_948dc6f1a2`
+FOREIGN KEY (`chat_application_id`)
+  REFERENCES `chat_applications` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (3.9ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153022')[0m
+Migrating to CreateChatApplicationMessages (20240705153227)
+  [1m[35m (11.0ms)[0m  [1m[35mCREATE TABLE `chat_application_messages` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_chat_id` bigint NOT NULL, `number` int, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_messages_on_chat_application_chat_id` (`chat_application_chat_id`), CONSTRAINT `fk_rails_0b92d53e0c`
+FOREIGN KEY (`chat_application_chat_id`)
+  REFERENCES `chat_application_chats` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (1.8ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153227')[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (1.0ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mChatApplication Create (1.3ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app1', '45da70007791b0156b1203ca99d6271f', NULL, '2024-07-06 09:53:22.009949', '2024-07-06 09:53:22.009949')[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mChatApplication Load (2.8ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (1.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (1.9ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplicationChat Create (1.6ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `chat_application_messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-06 09:53:33.246597', '2024-07-06 09:53:33.246597')[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplication Update All (1.3ms)[0m  [1m[33mUPDATE `chat_applications` SET `chat_applications`.`chat_application_chats_count` = COALESCE(`chat_applications`.`chat_application_chats_count`, 0) + 1 WHERE `chat_applications`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+[ActiveJob] Enqueued CreateChatJob (Job ID: cf1990ca-6c48-4929-8fea-ea2a3532e8c1) to Sidekiq(default) with arguments: 1
+[ActiveJob] ↳ app/services/ChatSystemServer.rb:28:in `create_chat'
+  [1m[36mChatApplication Load (12.8ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mChatApplicationChat Load (2.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (2.7ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 1 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationMessage Create (9.7ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 1, 'my first message in my first chat in my first application', '2024-07-06 09:54:00.734785', '2024-07-06 09:54:00.734785')[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationChat Update All (2.9ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mTRANSACTION (6.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (44.2ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mChatApplicationChat Load (1.1ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (1.3ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 2 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationMessage Create (4.9ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 2, 'my first message in my first chat in my first application', '2024-07-06 09:56:31.746490', '2024-07-06 09:56:31.746490')[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationChat Update All (1.5ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (34.6ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mChatApplicationChat Load (2.5ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (3.7ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 3 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationMessage Create (4.3ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 3, 'my first message in my first chat in my first application', '2024-07-06 09:59:21.728155', '2024-07-06 09:59:21.728155')[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationChat Update All (0.8ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mTRANSACTION (3.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (16.6ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mChatApplicationChat Load (1.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (2.7ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 4 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationMessage Create (2.5ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 4, 'my first message in my first chat in my first application', '2024-07-06 10:05:07.530293', '2024-07-06 10:05:07.530293')[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationChat Update All (0.9ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mTRANSACTION (2.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (1.6ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (0.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (2.2ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mChatApplicationChat Load (1.1ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (0.7ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (0.8ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (0.8ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 1 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationMessage Create (1.1ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 1, 'my first message in my first chat in my first application', '2024-07-06 10:42:00.771511', '2024-07-06 10:42:00.771511')[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplicationChat Update All (0.7ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mTRANSACTION (2.0ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+[ActiveJob] Enqueued ElasticsearchIndexingJob (Job ID: 1abc74ad-31b9-4905-8b12-49089a973366) to Sidekiq(elasticsearch) with arguments: 5
+[ActiveJob] ↳ app/models/chat_application_message.rb:58:in `index_document'
+[ActiveJob] Enqueued CreateMessageJob (Job ID: 4e22acc9-082e-4f4d-ad25-dc31f0e2db78) to Sidekiq(default) with arguments: 5
+[ActiveJob] ↳ app/services/ChatSystemServer.rb:44:in `create_message'
+  [1m[36mChatApplication Load (3.0ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:49:in `get_messages'
+  [1m[36mChatApplicationChat Load (6.4ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:50:in `get_messages'
+  [1m[36mChatApplicationMessage Load (1.5ms)[0m  [1m[34mSELECT `chat_application_messages`.* FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:51:in `map'
+  [1m[36mChatApplication Load (3.5ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (1.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (1.6ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (1.0ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (1.9ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (1.0ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (32.8ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (2.3ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+  [1m[36mChatApplication Load (3.2ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (1.8ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (1.7ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (1.7ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+  [1m[36mChatApplicationMessage Load (4.6ms)[0m  [1m[34mSELECT `chat_application_messages`.* FROM `chat_application_messages` WHERE `chat_application_messages`.`id` = 5[0m
+  ↳ app/models/chat_application_message.rb:54:in `search'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mREDIS_URL[0m, and [36mELASTICSEARCH_URL[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (1.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.2ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '007fd26bb17c33a26f672d2f677dccff' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.9ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '007fd26bb17c33a26f672d2f677dccff' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mChatApplication Create (8.6ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app2', '007fd26bb17c33a26f672d2f677dccff', NULL, '2024-07-06 13:23:55.150776', '2024-07-06 13:23:55.150776')[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+  [1m[36mTRANSACTION (7.7ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:10:in `create_application'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mMYSQL_HOST[0m, [36mREDIS_URL[0m, [36mELASTICSEARCH_URL[0m, and [36mRUN_GRPC_SERVER[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mMYSQL_HOST[0m, [36mREDIS_URL[0m, [36mELASTICSEARCH_URL[0m, and [36mRUN_GRPC_SERVER[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mMYSQL_HOST[0m, [36mREDIS_URL[0m, [36mELASTICSEARCH_URL[0m, and [36mRUN_GRPC_SERVER[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mChatApplication Load (3.1ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '45da70007791b0156b1203ca99d6271f' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationChat Load (2.3ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:59:in `search_messages'
+  [1m[36mChatApplicationMessage Load (1.7ms)[0m  [1m[34mSELECT `chat_application_messages`.* FROM `chat_application_messages` WHERE `chat_application_messages`.`id` = 5[0m
+  ↳ app/models/chat_application_message.rb:54:in `search'
+[dotenv] Set [36mMYSQL_USER[0m, [36mMYSQL_PASSWORD[0m, [36mMYSQL_HOST[0m, [36mREDIS_URL[0m, [36mELASTICSEARCH_URL[0m, and [36mRUN_GRPC_SERVER[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (18.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.8ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (3.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (8.0ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (17.3ms)[0m  [1m[35mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.2ms)[0m  [1m[35mCREATE TABLE `ar_internal_metadata` (`key` varchar(255) NOT NULL PRIMARY KEY, `value` varchar(255), `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (6.5ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.9ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[36mActiveRecord::InternalMetadata Create (2.9ms)[0m  [1m[32mINSERT INTO `ar_internal_metadata` (`key`, `value`, `created_at`, `updated_at`) VALUES ('environment', 'development', '2024-07-06 19:52:14.414050', '2024-07-06 19:52:14.414067')[0m
+Migrating to CreateChatApplications (20240705144812)
+  [1m[35m (12.1ms)[0m  [1m[35mCREATE TABLE `chat_applications` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `name` varchar(255), `token` varchar(255), `chat_application_chats_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL)[0m
+  [1m[35m (21.2ms)[0m  [1m[35mCREATE UNIQUE INDEX `index_chat_applications_on_token` ON `chat_applications` (`token`)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.3ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705144812')[0m
+Migrating to CreateChatApplicationChats (20240705153022)
+  [1m[35m (18.7ms)[0m  [1m[35mCREATE TABLE `chat_application_chats` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_id` bigint NOT NULL, `number` int, `chat_application_messages_count` int, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_chats_on_chat_application_id` (`chat_application_id`), CONSTRAINT `fk_rails_948dc6f1a2`
+FOREIGN KEY (`chat_application_id`)
+  REFERENCES `chat_applications` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.1ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153022')[0m
+Migrating to CreateChatApplicationMessages (20240705153227)
+  [1m[35m (20.5ms)[0m  [1m[35mCREATE TABLE `chat_application_messages` (`id` bigint NOT NULL AUTO_INCREMENT PRIMARY KEY, `chat_application_chat_id` bigint NOT NULL, `number` int, `body` text, `created_at` datetime(6) NOT NULL, `updated_at` datetime(6) NOT NULL, INDEX `index_chat_application_messages_on_chat_application_chat_id` (`chat_application_chat_id`), CONSTRAINT `fk_rails_0b92d53e0c`
+FOREIGN KEY (`chat_application_chat_id`)
+  REFERENCES `chat_application_chats` (`id`)
+)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.7ms)[0m  [1m[32mINSERT INTO `schema_migrations` (`version`) VALUES ('20240705153227')[0m
+  [1m[35m (1.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (3.7ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.0ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (30.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.1ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (18.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.0ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (7.4ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '63cf194ca44acffd765b25121290ec20' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '63cf194ca44acffd765b25121290ec20' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (6.3ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('amet', '63cf194ca44acffd765b25121290ec20', NULL, '2024-07-06 19:59:05.827941', '2024-07-06 19:59:05.827941')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (2.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Load (5.0ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '63cf194ca44acffd765b25121290ec20' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:25:in `create_chat'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Maximum (3.2ms)[0m  [1m[34mSELECT MAX(`chat_application_chats`.`number`) FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1[0m
+  ↳ app/models/chat_application_chat.rb:12:in `set_number'
+  [1m[36mChatApplicationChat Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_chats` WHERE `chat_application_chats`.`number` = 1 AND `chat_application_chats`.`chat_application_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplicationChat Create (1.8ms)[0m  [1m[32mINSERT INTO `chat_application_chats` (`chat_application_id`, `number`, `chat_application_messages_count`, `created_at`, `updated_at`) VALUES (1, 1, NULL, '2024-07-06 20:00:20.711185', '2024-07-06 20:00:20.711185')[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mChatApplication Update All (1.0ms)[0m  [1m[33mUPDATE `chat_applications` SET `chat_applications`.`chat_application_chats_count` = COALESCE(`chat_applications`.`chat_application_chats_count`, 0) + 1 WHERE `chat_applications`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+  [1m[36mTRANSACTION (2.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:26:in `create_chat'
+[ActiveJob] Enqueued CreateChatJob (Job ID: 0adaaef1-5709-4dde-9d9c-d4100be6f0f7) to Sidekiq(default) with arguments: 1
+[ActiveJob] ↳ app/services/ChatSystemServer.rb:27:in `create_chat'
+  [1m[36mChatApplication Load (3.8ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '63cf194ca44acffd765b25121290ec20' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:40:in `create_message'
+  [1m[36mChatApplicationChat Load (6.3ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:41:in `create_message'
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Maximum (3.7ms)[0m  [1m[34mSELECT MAX(`chat_application_messages`.`number`) FROM `chat_application_messages` WHERE `chat_application_messages`.`chat_application_chat_id` = 1[0m
+  ↳ app/models/chat_application_message.rb:29:in `set_number'
+  [1m[36mChatApplicationMessage Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_application_messages` WHERE `chat_application_messages`.`number` = 1 AND `chat_application_messages`.`chat_application_chat_id` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mChatApplicationMessage Create (2.2ms)[0m  [1m[32mINSERT INTO `chat_application_messages` (`chat_application_chat_id`, `number`, `body`, `created_at`, `updated_at`) VALUES (1, 1, 'hello world from ruby on rails', '2024-07-06 20:00:50.430272', '2024-07-06 20:00:50.430272')[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mChatApplicationChat Update All (1.8ms)[0m  [1m[33mUPDATE `chat_application_chats` SET `chat_application_chats`.`chat_application_messages_count` = COALESCE(`chat_application_chats`.`chat_application_messages_count`, 0) + 1 WHERE `chat_application_chats`.`id` = 1[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+  [1m[36mTRANSACTION (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:42:in `create_message'
+[ActiveJob] Enqueued ElasticsearchIndexingJob (Job ID: 76e40e59-21ee-494e-aa4a-6e18d2c1890a) to Sidekiq(elasticsearch) with arguments: 1
+[ActiveJob] ↳ app/models/chat_application_message.rb:58:in `index_document'
+[ActiveJob] Enqueued CreateMessageJob (Job ID: 1a32d0bc-494f-4e8f-bd6c-7f86b8305e0a) to Sidekiq(default) with arguments: 1
+[ActiveJob] ↳ app/services/ChatSystemServer.rb:43:in `create_message'
+  [1m[36mChatApplication Load (4.0ms)[0m  [1m[34mSELECT `chat_applications`.* FROM `chat_applications` WHERE `chat_applications`.`token` = '63cf194ca44acffd765b25121290ec20' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:57:in `search_messages'
+  [1m[36mChatApplicationChat Load (5.0ms)[0m  [1m[34mSELECT `chat_application_chats`.* FROM `chat_application_chats` WHERE `chat_application_chats`.`chat_application_id` = 1 AND `chat_application_chats`.`number` = 1 LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:58:in `search_messages'
+  [1m[36mChatApplicationMessage Load (0.9ms)[0m  [1m[34mSELECT `chat_application_messages`.* FROM `chat_application_messages` WHERE `chat_application_messages`.`id` = 1[0m
+  ↳ app/models/chat_application_message.rb:54:in `search'
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (5.2ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (38.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (3.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.0ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (7.8ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (2.3ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (2.7ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '602b5f38c798f600573825cdf2ba1fe2' LIMIT 1[0m
+  ↳ app/models/chat_application.rb:14:in `generate_token'
+  [1m[36mChatApplication Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM `chat_applications` WHERE `chat_applications`.`token` = '602b5f38c798f600573825cdf2ba1fe2' LIMIT 1[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mChatApplication Create (2.3ms)[0m  [1m[32mINSERT INTO `chat_applications` (`name`, `token`, `chat_application_chats_count`, `created_at`, `updated_at`) VALUES ('app2', '602b5f38c798f600573825cdf2ba1fe2', NULL, '2024-07-06 20:14:39.544586', '2024-07-06 20:14:39.544586')[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+  [1m[36mTRANSACTION (4.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/services/ChatSystemServer.rb:9:in `create_application'
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE DATABASE `chat_development` DEFAULT CHARACTER SET `utf8mb4`[0m
+[dotenv] Loaded [33m.env[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT GET_LOCK('8807287657078091370', 0)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (13.0ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (4.1ms)[0m  [1m[34mSELECT * FROM `ar_internal_metadata` WHERE `ar_internal_metadata`.`key` = 'environment' ORDER BY `ar_internal_metadata`.`key` ASC LIMIT 1[0m
+  [1m[35m (3.1ms)[0m  [1m[34mSELECT RELEASE_LOCK('8807287657078091370')[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+[dotenv] Loaded [33m.env[0m

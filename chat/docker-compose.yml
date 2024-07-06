@@ -1,0 +1,114 @@
+version: '3.3'
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    depends_on:
+      - 'database'
+      - 'redis'
+      - 'elasticsearch'
+    ports:
+      - '3000:3000'
+      - '50051:50051'
+    volumes:
+      - '.:/rails'
+    environment:
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
+      MYSQL_HOST: database
+      MYSQL_USERNAME: root
+      REDIS_URL: redis://redis:6379
+      ELASTICSEARCH_URL: http://elasticsearch:9200
+      RUN_GRPC_SERVER: true
+    networks:
+      - shared_network
+
+  # sidekiq:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   restart: always
+  #   depends_on:
+  #     - 'app'
+  #     - 'database'
+  #     - 'redis'
+  #     - 'elasticsearch'
+  #   ports:
+  #     - '3000:3000'
+  #     - '50051:50051'
+  #   volumes:
+  #     - '.:/rails'
+  #   environment:
+  #     MYSQL_USER: root
+  #     MYSQL_PASSWORD: root
+  #     MYSQL_HOST: database
+  #     MYSQL_USERNAME: root
+  #     REDIS_URL: redis://redis:6379
+  #     ELASTICSEARCH_URL: http://elasticsearch:9200
+  #     RUN_GRPC_SERVER: true
+  #   networks:
+  #     - shared_network
+
+  database:
+    image: mysql:latest
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'db'
+      # So you don't have to use root, but you can if you like
+      #MYSQL_USER: 'root'
+      # You can use whatever password you like
+      MYSQL_PASSWORD: 'root'
+      # Password for root access
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      # <Port exposed> : <MySQL Port running inside container>
+      - '3306:3306'
+    expose:
+      # Opens port 3306 on the container
+      - '3306'
+      # Where our data will be persisted
+    volumes:
+      - my-db:/var/lib/mysql
+    networks:
+      - shared_network
+  
+  redis:
+    image: redis:latest
+    restart: always
+    ports:
+      - '6379:6379'
+    command: redis-server --save 20 1 --loglevel warning
+    volumes: 
+      - cache:/data
+    networks:
+      - shared_network
+
+
+  elasticsearch:
+    image: elasticsearch:8.8.0
+    ports:
+      - '9200:9200'
+      - '9300:9300'
+    environment:
+      - discovery.type=single-node
+      - xpack.security.enabled=false
+    networks:
+      - shared_network
+    deploy:
+      resources:
+        limits:
+          memory: 1000M
+# Names our volume
+volumes:
+  my-db:
+    driver: local
+  cache:
+    driver: local
+
+networks:
+  shared_network:
+    external: true
+

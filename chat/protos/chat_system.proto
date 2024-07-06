@@ -1,0 +1,79 @@
+syntax = "proto3";
+
+package chat_system_proto;
+
+service ChatSystem {
+  rpc CreateApplication (CreateApplicationRequest) returns (Application) {}
+  rpc UpdateApplication (UpdateApplicationRequest) returns (Application) {}
+  rpc GetApplication (GetApplicationRequest) returns (Application) {}
+
+  rpc CreateChat (CreateChatRequest) returns (Chat) {}
+  rpc GetChats (GetChatsRequest) returns (ChatsList) {}
+
+  rpc CreateMessage (CreateMessageRequest) returns (Message) {}
+  rpc GetMessages (GetMessagesRequest) returns (MessagesList) {}
+  rpc SearchMessages (SearchMessagesRequest) returns (MessagesList) {}
+}
+
+message Application {
+  string token = 1;
+  string name = 2;
+  int32 chats_count = 3;
+}
+
+message Chat {
+  int32 number = 1;
+  string application_token = 2;
+  int32 messages_count = 3;
+}
+
+message Message {
+  int32 number = 1;
+  string body = 2;
+}
+
+message CreateApplicationRequest {
+  string name = 1;
+}
+
+message UpdateApplicationRequest {
+  string token = 1;
+  string name = 2;
+}
+
+message GetApplicationRequest {
+  string token = 1;
+}
+
+message CreateChatRequest {
+  string application_token = 1;
+}
+
+message GetChatsRequest {
+  string application_token = 1;
+}
+
+message ChatsList {
+  repeated Chat chats = 1;
+}
+
+message CreateMessageRequest {
+  string application_token = 1;
+  int32 chat_number = 2;
+  string body = 3;
+}
+
+message GetMessagesRequest {
+  string application_token = 1;
+  int32 chat_number = 2;
+}
+
+message SearchMessagesRequest {
+  string application_token = 1;
+  int32 chat_number = 2;
+  string query = 3;
+}
+
+message MessagesList {
+  repeated Message messages = 1;
+}
